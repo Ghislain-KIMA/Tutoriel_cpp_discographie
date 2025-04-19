@@ -4,12 +4,17 @@
 Doxyfile
 *.txt
 !CMakeLists.txt
+*.vcxproj.user
+*.filters
+*.user
+*.sln
 
 #repertoire
 html/
 .vscode/
 builder/
 build/
+.vs/
 
 # Compiled Object files
 *.slo

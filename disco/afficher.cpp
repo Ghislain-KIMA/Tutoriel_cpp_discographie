@@ -3,7 +3,7 @@
 #include "afficher.hpp"
 #include <algorithm>
 
-#include "names.hpp"
+#include "noms.hpp"
 
 inline std::ostream& operator<<(std::ostream& flux, std::tuple<std::string, std::string, std::string> const& T)
 {

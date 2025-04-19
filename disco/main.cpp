@@ -7,15 +7,9 @@
 #include <fstream>
 
 #include "menu.hpp"
-#include "names.hpp"
-
-
-
+#include "noms.hpp"
 
 using Discographie = std::vector<std::tuple<std::string, std::string, std::string>> ;
-
-
-// j'essai de voir ce que ça va donner
 
 int main(void)
 {

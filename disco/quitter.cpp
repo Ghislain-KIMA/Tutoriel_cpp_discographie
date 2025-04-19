@@ -2,7 +2,7 @@
 #include <iostream>
 #include "quitter.hpp"
 
-#include "names.hpp"
+#include "noms.hpp"
 
 void quitter(Discographie& donnees_du_disque)
 {

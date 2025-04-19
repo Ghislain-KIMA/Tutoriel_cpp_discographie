@@ -1,7 +1,7 @@
 #include <algorithm>
 #include "outils.hpp"
 
-#include "names.hpp"
+#include "noms.hpp"
 
 void supprimer_espace_avant_et_apres_d_une_chaine(std::string& chaine)
 {
