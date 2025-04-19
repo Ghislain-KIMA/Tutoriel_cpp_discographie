@@ -3,10 +3,13 @@
 *.docx
 Doxyfile
 *.txt
+!CMakeLists.txt
 
 #repertoire
 html/
 .vscode/
+builder/
+build/
 
 # Compiled Object files
 *.slo
