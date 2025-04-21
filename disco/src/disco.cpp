@@ -14,7 +14,7 @@ using Discographie = std::vector<std::tuple<std::string, std::string, std::strin
 int main(void)
 {
     bool boucle{true} ;
-    ListeCmds choix{0} ;
+    ListeCmds choix{ListeCmds::DEFAULT} ;
     std::string commande_de_ligne{""} ;
     std::unordered_map<std::string, ListeCmds> commandes_disponibles{{"ajouter", ListeCmds::AJOUTER},
                                                                      {"afficher", ListeCmds::AFFICHER},

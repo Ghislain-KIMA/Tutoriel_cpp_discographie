@@ -1,7 +1,7 @@
 #ifndef ENREGISTRER_HPP
 #define ENREGISTRER_HPP
 
-// #include <string>
+#include <string>
 // #include <vector>
 #include <vector>
 using Discographie = std::vector<std::tuple<std::string, std::string, std::string>> ;

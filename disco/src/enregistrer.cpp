@@ -1,9 +1,9 @@
 #include <fstream>
 #include <sstream>
 #include <iostream>
-#include "enregistrer.hpp"
 #include <algorithm>
 
+#include "enregistrer.hpp"
 #include "noms.hpp"
 
 bool le_fichier_existe_true(std::string const& nom_du_fichier)

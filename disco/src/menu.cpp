@@ -2,8 +2,8 @@
 #include <limits>
 #include <sstream>
 #include <vector>
-#include "menu.hpp"
 
+#include "menu.hpp"
 #include "noms.hpp"
 
 using Discographie = std::vector<std::tuple<std::string, std::string, std::string>> ;
@@ -78,7 +78,7 @@ bool executer_commande(ListeCmds const choix, std::string const& commande_de_lig
             ajouter(commande_de_ligne, donnees_du_disque) ;
             break ;
         case ListeCmds::AFFICHER :
-            afficher(commande_de_ligne, donnees_du_disque+donnees_du_fichier) ;
+            afficher(commande_de_ligne, donnees_du_disque + donnees_du_fichier) ;
             break ;
         case ListeCmds::ENREGISTRER :
             enregistrer(commande_de_ligne, donnees_du_disque) ;
